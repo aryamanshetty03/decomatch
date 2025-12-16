@@ -1,16 +1,49 @@
-# React + Vite
+# 🏡 DeoMatch - Interior Design Companion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DeoMatch is a comprehensive platform connecting homeowners with professional interior designers. It features AI-powered tools to estimate costs and visualize designs, making interior renovation seamless and accessible.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **🤖 AI Estimator:** Calculate renovation costs instantly using Gemini AI.
+* **💬 AI Chatbot:** Get 24/7 design advice and recommendations.
+* **🎨 Designer Matching:** Browse portfolios and book consultations with top designers.
+* **📅 Booking System:** Integrated scheduling for appointments.
+* **🔐 Secure Auth:** User authentication powered by Supabase.
+* **📱 Responsive Design:** Built for web and mobile.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend:** React (Vite)
+* **Styling:** Tailwind CSS
+* **AI Integration:** Google Gemini API
+* **Backend/Database:** Supabase
+* **Deployment:** Vercel / Netlify (Recommended)
 
-## Expanding the ESLint configuration
+## ⚙️ Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/aryamanshetty03/decomatch.git](https://github.com/aryamanshetty03/decomatch.git)
+    cd decomatch/decomatch-web
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Set up Environment Variables:**
+    Create a `.env` file in the root directory and add your keys:
+    ```env
+    VITE_SUPABASE_URL=your_supabase_url
+    VITE_SUPABASE_ANON_KEY=your_supabase_key
+    VITE_GEMINI_API_KEY=your_gemini_key
+    ```
+
+4.  **Run the project:**
+    ```bash
+    npm run dev
+    ```
+
+## 📸 Screenshots
+*(You can add screenshots of your app here later!)*
